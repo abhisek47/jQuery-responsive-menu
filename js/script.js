@@ -5,4 +5,7 @@ $(document).ready(function () {
   $('#open').click(function () {
     $('#mobile').fadeIn('fast', function () {});
   });
+  $('#about').click(function () {
+    $('#tab').slideToggle('normal', function () {});
+  });
 });

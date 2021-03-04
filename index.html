@@ -30,21 +30,22 @@
     <header class="shadow-sm">
       <div class="container mx-auto p-6">
         <div class="flex justify-between items-center">
-          <div
-            id="logo"
-            class="text-indigo-500 text-lg font-medium cursor-pointer"
+          <a
+            href=""
+            class="text-gray-800 text-xl hover:text-indigo-500 font-medium inline-flex space-x-3 items-center"
           >
-            Web Dev
-          </div>
+            <span><img src="./assets/Logo.svg" alt="" /></span>
+            <span>Vencortex</span>
+          </a>
           <div
             id="nav"
             class="hidden md:inline-flex space-x-8 items-center text-gray-800"
           >
-            <a href="#"><p class="hover:text-indigo-600">About</p></a>
-            <a href="#"><p class="hover:text-indigo-600">Services</p></a>
-            <a href="#"><p class="hover:text-indigo-600">Blog</p></a>
+            <a href="#"><p class="hover:text-indigo-600">Overview</p></a>
+            <a href="#"><p class="hover:text-indigo-600">Project</p></a>
+            <a href="#"><p class="hover:text-indigo-600">Data</p></a>
+            <a href="#"><p class="hover:text-indigo-600">Analytics</p></a>
             <a href="#"><p class="hover:text-indigo-600">Team</p></a>
-            <a href="#"><p class="hover:text-indigo-600">Contact</p></a>
           </div>
           <div id="menu" class="block md:hidden">
             <button class="focus:outline-none focus:outline-none" id="open">
@@ -54,12 +55,16 @@
         </div>
         <div id="mobile" class="hidden">
           <div
-            class="bg-gray-800 absolute top-0 right-0 w-full h-screen overflow-scroll p-6"
+            class="bg-gray-900 absolute top-0 right-0 w-full h-screen overflow-scroll p-6"
           >
             <div class="flex w-full justify-between items-center">
-              <div class="text-indigo-500 text-xl font-medium cursor-pointer">
-                Web Dev
-              </div>
+              <a
+                href=""
+                class="text-gray-100 text-xl hover:text-indigo-500 font-medium space-x-3 inline-flex items-center"
+              >
+                <span><img src="./assets/Logo.svg" alt="" /></span>
+                <span>Vencortex</span>
+              </a>
 
               <div>
                 <button
@@ -72,52 +77,127 @@
                 </button>
               </div>
             </div>
-            <div id="mobileNav" class="pt-12 pb-6">
-              <a href="#"
-                ><p class="text-gray-100 text-4xl py-4 hover:text-indigo-500">
-                  About
-                </p></a
-              >
-              <a href="#"
-                ><p class="text-gray-100 text-4xl py-4 hover:text-indigo-500">
-                  Services
-                </p></a
-              >
-              <a href="#"
-                ><p class="text-gray-100 text-4xl py-4 hover:text-indigo-500">
-                  Blogs
-                </p></a
-              >
-              <a href="#"
-                ><p class="text-gray-100 text-4xl py-4 hover:text-indigo-500">
-                  Team
-                </p></a
-              >
-              <a href="#"
-                ><p class="text-gray-100 text-4xl py-4 hover:text-indigo-500">
-                  Contact
-                </p></a
-              >
+            <div id="mobileNav" class="pt-6 pb-6">
+              <div>
+                <a
+                  href=""
+                  class="text-gray-300 text-lg py-3 hover:text-indigo-500 inline-flex items-center"
+                >
+                  <span class="pr-4"
+                    ><img src="./assets/Overview.svg" alt=""
+                  /></span>
+                  <span>Overview</span>
+                </a>
+              </div>
+              <div>
+                <a
+                  href=""
+                  class="text-gray-300 text-lg py-3 hover:text-indigo-500 inline-flex items-center"
+                >
+                  <span class="pr-4"
+                    ><img src="./assets/Project.svg" alt=""
+                  /></span>
+                  <span>Project</span>
+                </a>
+              </div>
+              <div>
+                <a
+                  href=""
+                  class="text-gray-300 text-lg py-3 hover:text-indigo-500 inline-flex items-center"
+                >
+                  <span class="pr-4"
+                    ><img src="./assets/Data.svg" alt=""
+                  /></span>
+                  <span>Data</span>
+                </a>
+              </div>
+              <div>
+                <a
+                  href=""
+                  class="text-gray-300 text-lg py-3 hover:text-indigo-500 inline-flex items-center"
+                >
+                  <span class="pr-4"
+                    ><img src="./assets/Analytics.svg" alt=""
+                  /></span>
+                  <span>Analytics</span>
+                </a>
+              </div>
+              <div>
+                <a
+                  href=""
+                  class="text-gray-300 text-lg py-3 hover:text-indigo-500 inline-flex items-center"
+                >
+                  <span class="pr-4"
+                    ><img src="./assets/Team.svg" alt=""
+                  /></span>
+                  <span>Team</span>
+                </a>
+              </div>
+              <!-- <div id="tab" class="hidden">
+                <a href="#"
+                  ><p class="text-gray-100 text-lg py-2 hover:text-indigo-500">
+                    HTML
+                  </p></a
+                >
+                <a href="#"
+                  ><p class="text-gray-100 text-lg py-2 hover:text-indigo-500">
+                    CSS
+                  </p></a
+                >
+                <a href="#"
+                  ><p class="text-gray-100 text-lg py-2 hover:text-indigo-500">
+                    Javascript
+                  </p></a
+                >
+              </div> -->
               <div class="border-2 border-gray-600 mt-4"></div>
             </div>
             <div>
-              <p class="text-lg text-gray-500">
-                We make honest design and thoughtfull experiences in a human
-                dimension
-              </p>
-              <div class="mt-10 text-gray-500">
-                <p>
-                  <span><i class="fas fa-map-marked pr-3"></i></span>Raiganj,
-                  West Bengal, IN
-                </p>
-                <p>
-                  <span><i class="fas fa-envelope pr-2 py-4"></i></span>
-                  abhisek529@gmail.com
-                </p>
-                <p>
-                  <span><i class="fas fa-phone-alt pr-2"></i></span>
-                  +91-7908003747
-                </p>
+              <div>
+                <a
+                  href=""
+                  class="text-gray-300 text-lg pb-4 hover:text-indigo-500 inline-flex items-center"
+                >
+                  <span class="pr-4"
+                    ><img src="./assets/Starred.svg" alt=""
+                  /></span>
+                  <span>Starred</span>
+                </a>
+              </div>
+              <div class="text-gray-500">
+                <div>
+                  <a
+                    href=""
+                    class="text-gray-400 text-base py-2 hover:text-indigo-500 inline-flex items-center"
+                  >
+                    <span class="pr-4"
+                      ><img src="./assets/Doc.svg" alt=""
+                    /></span>
+                    <span>Offer online courses</span>
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href=""
+                    class="text-gray-400 text-base py-2 hover:text-indigo-500 inline-flex items-center"
+                  >
+                    <span class="pr-4"
+                      ><img src="./assets/Doc.svg" alt=""
+                    /></span>
+                    <span>Create a popular social media channel</span>
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href=""
+                    class="text-gray-400 text-base py-2 hover:text-indigo-500 inline-flex items-center"
+                  >
+                    <span class="pr-4"
+                      ><img src="./assets/Doc.svg" alt=""
+                    /></span>
+                    <span>Flagship course for freelancer</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
